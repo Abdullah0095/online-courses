@@ -1,0 +1,22 @@
+.header img{
+     width: 350px;
+}
+.header{
+    text-align: center;
+    background-color: azure;
+}
+.header nav{
+    background-color: rgb(43, 71, 69);
+    line-height: 40px;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    padding: 5px;
+    
+}
+nav a:hover{
+    background-color: rgb(107, 196, 190);
+}
