@@ -10,7 +10,7 @@ const totalPrice = (total).toFixed(2)
         <div>
                 <h1>Course Enrollment</h1>
                 <h3>Enrolled Courses: {cart.length}</h3>
-                <p>total price: {totalPrice}</p>
+                <p>total price: ${totalPrice}</p>
                 
         </div>
     );

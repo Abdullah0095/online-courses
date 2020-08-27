@@ -1,5 +1,5 @@
 .course-detail{
-    height: 300px;
+    height: 320px;
     width: 700px;
     margin: 10px 20px;
     padding: 20px;
@@ -8,10 +8,13 @@
     
     
 }
+.course-detail h3{
+    color: navy;
+}
 .button{
     background-color: rgb(43, 71, 69);
     height: 40px;
-    width: 110px;
+    width: 140px;
     border-radius: 4px;
     cursor: pointer;
     

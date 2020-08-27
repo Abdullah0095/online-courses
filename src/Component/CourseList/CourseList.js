@@ -14,9 +14,11 @@ const CourseList = (props) => {
                 <h4>Price: ${props.courses.price}</h4>
             </div>
             
+                <div>
                 <button className="button" onClick={() => props.addStudents(props.courses)}>
                     <FontAwesomeIcon icon={faUserPlus} /> Enroll Now
                     </button>
+                </div>
             
 
         </div>

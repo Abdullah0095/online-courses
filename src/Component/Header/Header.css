@@ -3,12 +3,13 @@
 }
 .header{
     text-align: center;
-    /* background-color: azure; */
+    
 }
 .header nav{
     background-color: rgb(43, 71, 69);
     line-height: 40px;
     font-size: 20px;
+    
 }
 nav a{
     text-decoration: none;
