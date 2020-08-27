@@ -3,6 +3,7 @@ import courseData from '../../CourseData/CourseData';
 import { useState } from 'react';
 import './CourseArea.css';
 import CourseList from '../CourseList/CourseList';
+import Cart from '../Cart/Cart';
 
 const CourseArea = () => {
     console.log(courseData);
@@ -11,7 +12,7 @@ const CourseArea = () => {
     const [cart, setCart] = useState([]);
 
     const addStudents = (courses) =>{
-        console.log('add hosse', courses);
+        
         const newCart = [...cart, courses];
         setCart(newCart);
     }
@@ -29,8 +30,7 @@ const CourseArea = () => {
                 
             </div>
             <div className="cart">
-                <h1>Course Enrollment</h1>
-                <h2>List of Courses: {cart.length}</h2>
+                <Cart cart={cart}></Cart>
             </div>
             
             
